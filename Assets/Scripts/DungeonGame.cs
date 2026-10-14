@@ -12,7 +12,8 @@ public class DungeonGame : MonoBehaviour
 {
     void Start()
     {
-        string playerName = "SuperPlayer";
+
+        string playerName = "WorkInprogress";
         int health = 100;
         int attack = 30;
         int agility;
