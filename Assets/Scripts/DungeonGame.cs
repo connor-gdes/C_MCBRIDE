@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem.Processors;
 
 // ==========================================================================
 // THE DUNGEON - Homework (Intro to C#  +  Variables & Operators)
@@ -83,9 +84,26 @@ public class DungeonGame : MonoBehaviour
         Debug.Log("");
         Debug.Log("The Vault");
         Debug.Log("A heavy metal door stands between you and the outside world.");
-        Debug.Log("You use the key to unlock the door.");
-        hasKey = false;
-        Debug.Log("You exit through the door and leave the dungeon.");
+
+        if((hasKey == true) && (health > 0))
+        {
+            Debug.Log("You use the key to unlock the door.");
+            hasKey = false;
+            Debug.Log("You exit through the door and leave the dungeon.");
+        }
+        else if(hasKey == false)
+        {
+            Debug.Log("You are do not have a key.");
+        }
+        else if(health <= 0)
+        {
+            Debug.Log("You are dead.");
+        }
+        else
+        {
+            Debug.Log("You are both dead and do not have a key.");
+        }
+        
 
         gold = 15;
         
