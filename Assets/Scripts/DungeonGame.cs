@@ -23,6 +23,7 @@ public class DungeonGame : MonoBehaviour
         int goblinHealth = 50;
         int goblinAttack = 15;
         int defense = 10;
+        bool hasSword = false;
         
         Debug.Log("=== THE DUNGEON ===");
         Debug.Log("Welcome, " + playerName + ". Your escape begins.");
@@ -81,6 +82,15 @@ public class DungeonGame : MonoBehaviour
         defense = defense + 5;
         Debug.Log("Your defense is now " + defense + ". You exit the room.");
 
+        if(hasSword == true)
+        {
+            //write for if player has sword they go down one path
+        }
+        else
+        {
+            // no sword, go down another.
+        }
+        
         Debug.Log("");
         Debug.Log("The Vault");
         Debug.Log("A heavy metal door stands between you and the outside world.");
