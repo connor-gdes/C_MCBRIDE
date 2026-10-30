@@ -31,9 +31,9 @@ public class Classwork_ClassesAndObjects : MonoBehaviour
 
         // TODO A3. public or private? (which should it be?)
         // TODO     9. a health value only the object should change
-        // Answer:  <YOUR ANSWER HERE>
+        // Answer:  Private
         // TODO     10. a method other scripts must call
-        // Answer:  <YOUR ANSWER HERE>
+        // Answer:  Public
 
         // TODO A4. Fill in the blank (answer in a comment):
         // TODO     11. A class bundles ______ (member variables) and ______ (methods).
