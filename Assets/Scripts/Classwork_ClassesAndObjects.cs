@@ -21,13 +21,13 @@ public class Classwork_ClassesAndObjects : MonoBehaviour
 
         // TODO A2. Class or object? (the blueprint, or one instance?)
         // TODO     5. class Enemy { ... }
-        // Answer:  <YOUR ANSWER HERE>
+        // Answer:  Class
         // TODO     6. Enemy e = new Enemy();
-        // Answer:  <YOUR ANSWER HERE>
+        // Answer:  Object
         // TODO     7. the cookie cutter
-        // Answer:  <YOUR ANSWER HERE>
+        // Answer:  Class
         // TODO     8. one baked cookie
-        // Answer:  <YOUR ANSWER HERE>
+        // Answer:  Object
 
         // TODO A3. public or private? (which should it be?)
         // TODO     9. a health value only the object should change
